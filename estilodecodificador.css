@@ -1,0 +1,148 @@
+body {
+background: #E5E5E5;
+width: 940px;
+font-family: 'Inter', sans-serif;
+
+}
+main {
+	height: 550px;
+}
+
+.criptografar {
+	display: inline-block; 
+}
+.descriptografar {
+	position: relative;
+	left: 50%;
+	margin: 50px 0 50px 0;
+}
+
+.criptografar textarea {
+	position: relative;
+	width: 500px;
+	height: 280px;
+	left: 150px;
+    top: 18px;
+    border: none;
+    background: #E5E5E5;
+}
+#criptografar {
+	position: relative;
+	top: 100px;
+	left: -300px;
+	background: #0A3871;
+	width: 200px;
+	padding: 20px 20px 20px 20px;
+	text-align: center; 
+	color: white;
+	border-radius: 24px;
+	border: none;
+	cursor: pointer;
+}
+
+#descriptografar {
+	position: relative;
+	text-align: center; 
+	top: 100px;
+	left: -300px;
+	background:#E5E5E5;
+	width: 200px;
+	padding: 20px 20px 20px 12px;
+	color: #0A3871;
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	cursor: pointer;
+}
+#descriptografar:hover {
+	transition: 1s;
+	background:  #0A3871;
+	color: white;
+}
+.textoalerta {
+	color: #0A3871;
+	position: relative;
+	left: 150px;
+}
+#botaocopiar {
+	width: 200px;
+	position: relative;
+	vertical-align: baseline;
+	top: 60px;
+	background: #E5E5E5;
+	color: #0A3871;
+	padding: 20px 60px 20px 60px;
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	cursor: pointer;
+}
+#botaocopiar:hover {
+	transition: 1s;
+	background:  #0A3871;
+	color: white;
+}
+.descriptografar textarea {
+	position: relative;
+	width: 336px;
+	height: 381px;
+	left: -10px;
+	top: 10px;
+	margin: 0px;
+	border: none;
+	padding: 40px;
+    border-radius: 32px;
+    font-family: 'Inter';
+	font-size: 32px;
+	line-height: 150%;
+	color: #0A3871;
+	background: white;
+	width: 100%;
+}
+#campodescriptografar {
+	position: relative;
+	top: 30px;
+	width: 250px;
+	height: 250px;
+	
+}
+
+.descriptografar {
+	text-align: center;
+	vertical-align: baseline;
+	position: relative;
+	margin: 0 0 0 0;
+	padding: 0 20px 20px 20px;
+	background: white;
+	width: 390px;
+	height: 500px;
+	left: 850px;
+    top: -350px;
+	border-radius: 32px;
+	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+	line-height: 150%;
+	color: #0A3871;
+}
+
+#textoarea {
+ 	font-family: 'Inter';
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 150%;
+	color: #0A3871;
+	width: 500px;
+}
+.logoalura {
+padding: 20px 0 0 42px;
+}
+footer {
+	width: 1350px;
+	padding: 100px 0 100px 0;
+	background: linear-gradient(#E5E5E5,#0A3871);
+}
+footer p {
+	color: #0A3871;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'David Libre', serif;
+font-family: 'Montserrat', sans-serif;
+} 
