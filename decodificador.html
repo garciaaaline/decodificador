@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<title>Codificador</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet"href="estilodecodificador.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<head>
+			<img class="logoalura" src="logo-alura.png" alt="Logo da alura">
+		</head>
+		<main>
+			<div class="criptografar">
+				<textarea id="textoarea" placeholder="Digite seu texto"></textarea>
+				<button id ="criptografar" onclick = "botaocriptografar()">Criptografar</button>
+				<button id="descriptografar" onclick="botaodescriptografar()">Descriptografar</button>
+				<p class="textoalerta"><img src="alerta.png">    Apenas letras minúsculas e sem acento.<p>
+			</div>
+			<div class="descriptografar">
+				<textarea id="campodescriptografar"></textarea>
+				<button id="botaocopiar" onclick="copiarTexto()">Copiar</button>
+			</div>
+		</main>
+
+		<footer>
+			<p> &#9398; Página desenvolvida por Aline Garcia </p>
+		</footer>
+		<script src="script.js"></script>	
+	</body>
+
+</html>
