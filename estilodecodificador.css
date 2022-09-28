@@ -2,8 +2,17 @@ body {
 background: #E5E5E5;
 width: 940px;
 font-family: 'Inter', sans-serif;
-
 }
+
+a {
+	text-decoration-line: none;
+	color: #0A3871;
+}
+
+a:hover {
+	color: #E5E5E5;
+}
+
 main {
 	height: 550px;
 }
